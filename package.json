@@ -1,0 +1,27 @@
+{
+  "name": "productionproject",
+  "version": "1.0.0",
+  "description": "graphQL server",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartGraphQL/graphQLServer.git"
+  },
+  "author": "Manjeet, Mark, Julia, Seth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smartGraphQL/graphQLServer/issues"
+  },
+  "homepage": "https://github.com/smartGraphQL/graphQLServer#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.2.6",
+    "nodemon": "^1.18.3"
+  }
+}
